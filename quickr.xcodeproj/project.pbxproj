@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		9ACE294C288084E7000D0486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE294B288084E7000D0486 /* AppDelegate.swift */; };
 		9ACE294E288084E7000D0486 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE294D288084E7000D0486 /* SceneDelegate.swift */; };
-		9ACE2950288084E7000D0486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE294F288084E7000D0486 /* ViewController.swift */; };
+		9ACE2950288084E7000D0486 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE294F288084E7000D0486 /* FirstViewController.swift */; };
 		9ACE2953288084E8000D0486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACE2951288084E8000D0486 /* Main.storyboard */; };
 		9ACE2956288084E8000D0486 /* quickr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE2954288084E8000D0486 /* quickr.xcdatamodeld */; };
 		9ACE2958288084EA000D0486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ACE2957288084EA000D0486 /* Assets.xcassets */; };
@@ -17,6 +17,7 @@
 		9ACE2966288084EB000D0486 /* quickrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE2965288084EB000D0486 /* quickrTests.swift */; };
 		9ACE2970288084EB000D0486 /* quickrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE296F288084EB000D0486 /* quickrUITests.swift */; };
 		9ACE2972288084EB000D0486 /* quickrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE2971288084EB000D0486 /* quickrUITestsLaunchTests.swift */; };
+		9ACE297F28808C62000D0486 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE297E28808C62000D0486 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,7 @@
 		9ACE2948288084E7000D0486 /* quickr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quickr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACE294B288084E7000D0486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ACE294D288084E7000D0486 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9ACE294F288084E7000D0486 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9ACE294F288084E7000D0486 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		9ACE2952288084E8000D0486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9ACE2955288084E8000D0486 /* quickr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = quickr.xcdatamodel; sourceTree = "<group>"; };
 		9ACE2957288084EA000D0486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		9ACE296B288084EB000D0486 /* quickrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quickrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACE296F288084EB000D0486 /* quickrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quickrUITests.swift; sourceTree = "<group>"; };
 		9ACE2971288084EB000D0486 /* quickrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quickrUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9ACE297E28808C62000D0486 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +105,8 @@
 			children = (
 				9ACE294B288084E7000D0486 /* AppDelegate.swift */,
 				9ACE294D288084E7000D0486 /* SceneDelegate.swift */,
-				9ACE294F288084E7000D0486 /* ViewController.swift */,
+				9ACE294F288084E7000D0486 /* FirstViewController.swift */,
+				9ACE297E28808C62000D0486 /* SecondViewController.swift */,
 				9ACE2951288084E8000D0486 /* Main.storyboard */,
 				9ACE2957288084EA000D0486 /* Assets.xcassets */,
 				9ACE2959288084EA000D0486 /* LaunchScreen.storyboard */,
@@ -261,9 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ACE2950288084E7000D0486 /* ViewController.swift in Sources */,
+				9ACE2950288084E7000D0486 /* FirstViewController.swift in Sources */,
 				9ACE294C288084E7000D0486 /* AppDelegate.swift in Sources */,
 				9ACE2956288084E8000D0486 /* quickr.xcdatamodeld in Sources */,
+				9ACE297F28808C62000D0486 /* SecondViewController.swift in Sources */,
 				9ACE294E288084E7000D0486 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
